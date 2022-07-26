@@ -1,0 +1,160 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body > * {
+  width: 100%;
+  border: 1px solid #000;
+  border-bottom-width: 0;
+  box-sizing: border-box;
+  
+}
+
+body > *:last-child {
+  border-bottom-width: 1px;
+}
+
+header,
+footer {
+  text-align: center;
+  min-height: 100px;
+}
+
+aside {
+  width: 25%;
+  border: 0 solid #000;
+  border-right-width: 1px;
+}
+
+.container .body {
+  width: 75%;
+}
+
+.container {
+  display: flex;
+  min-height: 300px;
+}
+
+p, h4, h3{
+	padding-top:0.6em;
+	padding-left:0.9em;
+	padding-right:0.9em;
+	
+}
+
+.cont2{
+width:50%;
+margin-left:auto;
+margin-right: auto;
+
+
+}
+.sub{
+border-bottom: 1px dotted black;
+}
+caption{
+text-align: left;
+font-size: 13px;
+padding-left:0.2em;
+padding-bottom:0.2em;
+font-weight:bold;
+}
+table.blueTable {
+  border: 0px solid #A42449;
+  background-color: #EEEEEE;
+  width: 80%;
+  text-align: left;
+  border-collapse: collapse;
+  
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+  text-align: center;
+  vertical-align: middle;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #CFDFFF;
+}
+table.blueTable thead {
+  background: #77A452;
+  background: -moz-linear-gradient(top, #99bb7d 0%, #84ad63 66%, #77A452 100%);
+  background: -webkit-linear-gradient(top, #99bb7d 0%, #84ad63 66%, #77A452 100%);
+  background: linear-gradient(to bottom, #99bb7d 0%, #84ad63 66%, #77A452 100%);
+  border-bottom: 0px solid #440E2F;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+table.s3egunda {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.s3egunda td, table.s3egunda th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.s3egunda tbody td {
+  font-size: 13px;
+}
+table.s3egunda thead {
+  background: #5CA478;
+  background: -moz-linear-gradient(top, #85bb9a 0%, #6cad85 66%, #5CA478 100%);
+  background: -webkit-linear-gradient(top, #85bb9a 0%, #6cad85 66%, #5CA478 100%);
+  background: linear-gradient(to bottom, #85bb9a 0%, #6cad85 66%, #5CA478 100%);
+  border-bottom: 1px solid #444444;
+}
+table.s3egunda thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #D0E4F5;
+}
+table.s3egunda thead th:first-child {
+  border-left: none;
+}
+
+table.s3egunda tfoot td {
+  font-size: 14px;
+}
+table.s3egunda tfoot .links {
+  text-align: right;
+}
+table.s3egunda tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
